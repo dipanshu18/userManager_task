@@ -4,10 +4,7 @@ import users from "@/utils/users.json";
 import fs from "fs";
 import path from "path";
 
-export async function PUT(
-  req: NextRequest,
-  { params }: { params: { id: string } }
-) {
+export async function PUT(req: NextRequest, { params }) {
   const role = (await cookies()).get("user")?.value;
   const userId = (await cookies()).get("uid")?.value;
 

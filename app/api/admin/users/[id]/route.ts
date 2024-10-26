@@ -3,10 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 import path from "path";
 import fs from "fs";
 
-export async function GET(
-  req: NextRequest,
-  { params }: { params: { id: string } }
-) {
+export async function GET(req: NextRequest, { params }) {
   const id = params.id;
 
   const userExists = users.filter((user) => user.id === id)[0];
@@ -18,10 +15,7 @@ export async function GET(
   return NextResponse.json(userExists, { status: 200 });
 }
 
-export async function DELETE(
-  req: NextRequest,
-  { params }: { params: { id: string } }
-) {
+export async function DELETE(req: NextRequest, { params }) {
   const id = params.id;
 
   const userExists = users.filter((user) => user.id === id)[0];
