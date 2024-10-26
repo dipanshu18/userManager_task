@@ -1,0 +1,46 @@
+[
+  {
+    "id": "f27b7f28-97ab-4921-a354-a84f154bc958",
+    "name": "Dipanshu Torawane",
+    "email": "dipanshu@gmail.com",
+    "image": "https://randomuser.me/api/portraits/men/37.jpg",
+    "phone": "6453676453",
+    "role": "USER",
+    "password": "dipanshu",
+    "linkedinUrl": "https://www.linkedin.com/in/dipanshu-torawane",
+    "xUrl": "https://x.com/dipanshu_twts"
+  },
+  {
+    "id": "6b1f1187-b4ae-46b5-8d32-73959b60926a",
+    "name": "Moin Hossain",
+    "email": "moin@gmail.com",
+    "image": "https://randomuser.me/api/portraits/men/34.jpg",
+    "phone": "8969468456",
+    "role": "USER",
+    "password": "moin",
+    "linkedinUrl": "https://www.linkedin.com/in/moin-hossain",
+    "xUrl": "https://x.com/moin_twts"
+  },
+  {
+    "id": "b18eb8c5-31ca-4cd0-9330-a2b945b2d2d6",
+    "image": "https://randomuser.me/api/portraits/women/50.jpg",
+    "email": "vrukshali@gmail.com",
+    "name": "Vrukshali Torawane",
+    "role": "USER",
+    "phone": "8765456554",
+    "linkedinUrl": "https://www.linkedin.com/in/vrukshali",
+    "xUrl": "https://x.com/vrukshali",
+    "password": "vrukshali"
+  },
+  {
+    "id": "316ec5db-47cd-4066-80a5-a420926ae7f6",
+    "image": "https://randomuser.me/api/portraits/men/60.jpg",
+    "email": "tim@gmail.com",
+    "name": "Tim Howard",
+    "role": "USER",
+    "phone": "9876543569",
+    "linkedinUrl": "https://www.linkedin.com/in/tim",
+    "xUrl": "https://x.com/tim_howard",
+    "password": "timhoward"
+  }
+]
