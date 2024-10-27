@@ -268,7 +268,10 @@ export default function UserDashboard() {
           </div>
         </div>
         <div className="flex md:hidden justify-center">
-          <button className="py-2 px-6 bg-neutral-800 text-white rounded">
+          <button
+            onClick={() => setEditProfileModal(true)}
+            className="py-2 px-6 bg-neutral-800 text-white rounded"
+          >
             Edit profile
           </button>
         </div>
